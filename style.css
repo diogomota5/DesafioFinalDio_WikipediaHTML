@@ -32,21 +32,31 @@ a {
     grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
-}
+}    
 
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
 
-.anchors {
-    border-left: solid 1px #cdcdcd;
-}
-
-.sidebar {
-    border-right: solid 1px #cdcdcd;
-}
-
 h1 {
     border-bottom: solid 1px #cdcdcd;
+}
+
+figure {
+    font-size: 15px;
+}
+
+th{
+    text-align: left;
+    padding-left: 2.2rem;
+    vertical-align: top;
+}
+
+td{
+    padding-left: 1rem;
+}
+
+blockquote {
+    font-size: 13px;
 }
